@@ -11,7 +11,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
-import os
+import flask
 
 #############################################
 # Constants and useful values
@@ -179,7 +179,8 @@ df4 = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapm
 #############################################
 # Define app that generates HTML code
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = flask.Flask(__name__)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 app.layout = html.Div(style={'fontFamily':'Courier', 'marginBottom': 50},
                       children=[
     generate_h1(),
