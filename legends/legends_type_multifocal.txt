@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;Not multifocal
+1;Multifocal

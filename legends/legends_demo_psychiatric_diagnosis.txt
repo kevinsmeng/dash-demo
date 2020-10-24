@@ -1,0 +1,7 @@
+code;legend
+int;str
+1;Depression
+2;Anxiety
+3;Psychosis
+4;Autistic Spectrum Disorder
+5;Other

@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;Not refractory
+1;Refractory

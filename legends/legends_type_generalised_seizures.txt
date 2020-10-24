@@ -1,0 +1,8 @@
+code;legend
+int;str
+1;Tonic-clonic
+2;Absence
+3;Myoclonic
+4;Tonic
+5;Atonic
+6;Other

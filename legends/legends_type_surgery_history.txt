@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;No surgery history
+1;Surgery history

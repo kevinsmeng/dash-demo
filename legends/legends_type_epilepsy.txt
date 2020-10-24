@@ -1,0 +1,5 @@
+code;legend
+int;str
+1;Focal
+2;Generalised (IGE, GGE, SGE)
+3;Unknown

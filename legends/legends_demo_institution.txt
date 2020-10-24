@@ -1,0 +1,10 @@
+code;legend
+int;str
+0;St Vincent's Hospital Melbourne
+1;Prince of Wales Hospital
+2;Monash Health
+3;Royal Adelaide
+4;Fiona Stanley
+6;RPH
+7;Flinders Medical Centre
+5;Other (private practice or institution)

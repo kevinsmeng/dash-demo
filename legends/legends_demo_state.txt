@@ -1,0 +1,10 @@
+code;legend
+int;str
+1;QLD
+2;NSW
+3;VIC
+4;TAS
+5;SA
+6;WA
+7;NT
+8;ACT

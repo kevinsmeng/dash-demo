@@ -1,0 +1,13 @@
+code;legend;legend_alt
+int;str;str
+1;inadequate benefit;insomnia
+2;rash;rash
+3;allergy other than rash;allergy other than rash
+4;mood change - irritability, aggression;mood change - irritability, aggression
+5;mood change - depressive;mood change - depressive
+6;cognitive - fatigue, sedation, poor concentration;cognitive - fatigue, sedation, poor concentration
+7;weight gain;weight gain
+8;weight loss;weight loss
+9;other;other
+10;dizziness, unsteadiness;dizziness, unsteadiness
+11;unknown;-

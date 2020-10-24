@@ -1,0 +1,4 @@
+code;legend
+int;str
+1;Lesional (MRI positive)
+2;Non-lesional (MRI negative)

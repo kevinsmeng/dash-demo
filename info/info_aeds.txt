@@ -1,0 +1,29 @@
+code;abbreviation;chemical name;brand name;AUS list;UK list;CAN list
+int;str;str;list_str;int;int;int
+99;act;acetazolamide;Acetazolam;0;1;1
+1;brv;brivaracetam;Briviact;1;1;0
+2;cbz;carbamazepine;Tegretol,Carbagen;1;1;1
+3;clb;clobazam;Frisium,Perizam,Tapclob,Zacco;1;1;1
+4;clo;clonazepam;Rivotril;1;1;1
+5;etx;ethosuximide;Zarontin;1;1;1
+6;flb;felbamate;Felbatol;0;0;1
+7;gbp;gabapentin;Neurontin;1;1;1
+8;lcm;lacosamide;Vimpat;1;1;1
+9;lev;levetiracetam;Keppra,Desitrend;1;1;1
+10;ltg;lamotrigine;Lamictal;1;1;1
+11;oxc;oxcarbazepine;Trileptal;1;1;1
+98;pad;padsevonil;?;0;0;0
+24;per;perampanel;Fycompa;1;1;0
+12;phb;phenobarbitone;Phenobarb;1;1;1
+13;pht;phenytoin;Dilantin,Epanutin;1;1;1
+14;pir;piracetam;Nootropil;0;1;0
+15;prg;pregabalin;Lyrica,Alzain,Axalid,Lecaent,Rewisca;1;1;1
+16;prm;primidone;Mysoline;1;1;1
+17;ruf;rufinamide;Inovelon,Banzel;1;1;1
+97;stm;sulthiame;?;0;0;0
+18;tgb;tiagabine;Gabitril;1;1;1
+19;tpm;topiramate;Topamax;1;1;1
+20;vgb;vigabatrin;Sabril;1;1;1
+21;vpa;valproic acid;Epilim,Episenta,Epival,Convulex,Depakene;1;1;1
+22;zon;zonisamide;Zonegran;1;1;1
+23;oth;other;?;0;0;0

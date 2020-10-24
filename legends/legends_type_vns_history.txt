@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;No VNS history
+1;VNS history

@@ -1,0 +1,14 @@
+code;legend;legend_alt
+int;str;str
+1;Multiple daily;Multiple daily
+2;Daily;Daily
+3;Several per week;Several per week
+4;Weekly;Weekly
+5;Fortnightly;Fortnightly
+6;Monthly;Monthly
+7;Every few months;Every few months
+8;Yearly;Less than every few months
+9;Rare;Seizure free since last review
+10;Not documented;"Better" but no frequency
+11;-;"Worse" but no frequency
+12;-;Not documented

@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;No intellectual disability
+1;Intellectual disability

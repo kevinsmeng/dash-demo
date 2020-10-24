@@ -1,0 +1,9 @@
+code;legend
+int;str
+1;Hippocampal sclerosis
+2;Cortical dysplasia
+3;Post-stroke
+4;Post-trauma
+5;Immune-mediated
+7;Peri-natal insult
+6;Other

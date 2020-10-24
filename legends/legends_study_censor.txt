@@ -1,0 +1,5 @@
+code;legend
+int;str
+1;Underwent epilepsy surgery or VNS
+2;Death
+3;Commenced other drug not listed above (including trial drugs)

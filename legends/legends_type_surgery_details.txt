@@ -1,0 +1,6 @@
+code;legend
+int;str
+1;Anterior temporal lobectomy right
+2;Anterior temporal lobectomy left
+3;Focal cortical resection
+4;Other

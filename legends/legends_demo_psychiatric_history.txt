@@ -1,0 +1,4 @@
+code;legend
+int;str
+0;No psychiatric history
+1;Psychiatric history

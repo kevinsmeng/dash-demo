@@ -1,0 +1,8 @@
+code;legend
+int;str
+1;JME
+2;JAE
+3;CAE
+4;GTCSO
+5;LGS
+6;Other
