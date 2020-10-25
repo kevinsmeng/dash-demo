@@ -11,8 +11,6 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
-
-import glob
 import numpy as np
 
 
@@ -55,14 +53,14 @@ def get_info(file):
     df_info.fillna('', inplace=True)
     return df_info
 
-def get_legends(path):
+def get_legends():
     """
     Input:
         - path: can include *
     Return dictionary of pandas dataframes
     """
     dict_legends = {}
-    files = glob.glob(path)
+    files = ['https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_handedness.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_institution.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_intellectual_disability.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_psychiatric_diagnosis.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_psychiatric_history.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_demo_state.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_study_censor.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_study_change_aeds.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_study_effect_aeds.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_study_frequency_seizures.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_epilepsy.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_focal_aetiology.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_focal_lesional.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_generalised_aetiology.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_generalised_seizures.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_multifocal.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_refractory.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_refractory_onset.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_surgery_details.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_surgery_history.txt', 'https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/legends/legends_type_vns_history.txt']
     for file in files:
         key = file.split('\\')[-1][8:].split('.')[0]
         dict_legends[key] = pd.read_csv(file,delimiter=';')
@@ -120,9 +118,9 @@ def generate_table(dataframe, max_rows=20):
 
 #############################################
 
-df_data = get_data('data/data_clean.xlsx')
-df_aeds = get_info('info/info_aeds.txt')
-dict_legends = get_legends('legends/legends*.txt')
+df_data = get_data('https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/data/data_clean.xlsx')
+df_aeds = get_info('https://raw.githubusercontent.com/kevinsmeng/dash-demo/main/info/info_aeds.txt')
+dict_legends = get_legends()
 dict_dds = {} # dictionary of lists for dropdown options
 for key in ['demo','type','frequ']:
     dict_dds[key] = [i for i in df_data if key in i]
